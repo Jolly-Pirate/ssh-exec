@@ -54,6 +54,7 @@ var exec = function (cmd, opts, cb) {
       host: opts.host,
       username: opts.user,
       password: opts.password,
+      passphrase: opts.passphrase,
       port: opts.port || 22,
       tryKeyboard: !!opts.password,
       privateKey: key,
